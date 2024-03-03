@@ -1,6 +1,7 @@
 package com.abraaorochapb.apiJava.domain.product;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Size;
 import lombok.*;
 
 @Table(name = "produto")
